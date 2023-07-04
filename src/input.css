@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.pokemon{
+    @apply bg-white flex flex-col rounded-lg border border-gray-400 
+    shadow-black drop-shadow-lg col-span-1 uppercase
+    relative isolate overflow-hidden
+    px-2 py-4
+    w-[80%]
+    sm:w-[80%]
+}
+
+.id-pokemon-back{
+    @apply absolute transform 
+    lg:top-[5%] lg:left-1/2 
+    lg:-translate-x-1/2
+    font-bold opacity-40
+    text-black -z-10
+    text-4xl
+    lg:text-4xl
+    md:text-4xl
+    sm:top-2 sm:right-2
+    sm:text-3xl
+}
+
+.container-img-poke{
+    @apply flex justify-center mx-auto
+    w-[50%] h-[60%]
+    sm:w-[80%]
+}
+
+.img-pokemon{
+    @apply w-[90%] h-[100%]
+    sm:w-[80%]
+    drop-shadow-xl shadow-black
+}
+
+.info-pokemon{
+    @apply flex flex-row justify-center space-x-5 mt-3
+    sm:mt-1
+}
+
+.name-poke{
+    @apply text-black tracking-wide text-lg 
+    sm:text-xl font-bold flex items-center
+}
+
+.id-poke{
+    @apply bg-gray-700 rounded-xl text-white font-bold 
+    tracking-widest flex items-center 
+    text-xs px-3
+    sm:text-lg sm:px-4
+}
+
+.type-poke{
+    @apply flex flex-row
+    justify-center space-x-3 my-2
+    text-lg px-2
+    sm:text-lg sm:px-2 sm:py-1
+}
+
+.stat-poke{
+    @apply flex flex-col justify-center space-y-2 w-[60%] mx-auto
+    sm:w-[80%]
+}
+
+.height-poke{
+    @apply bg-yellow-600 text-black text-center tracking-wide
+    rounded-lg lowercase font-bold
+    text-sm px-3 py-1 flex items-center justify-center
+    sm:text-lg sm:px-1
+}
+.weight-poke{
+    @apply bg-blue-900 text-white text-center tracking-wide
+    rounded-lg lowercase font-bold
+    text-sm px-2 py-1 flex items-center justify-center
+    sm:text-lg sm:px-2 sm:py-1
+}
+
+
+/* Buton Header of Types */
+
+.btn-header{
+    @apply border flex justify-center
+    w-[25%] h-[20%]
+    sm:w-[20%]
+    lg:w-[8%] sm:text-lg
+  bg-black px-5 py-1 rounded-lg 
+    shadow-sm shadow-yellow-200
+}
+
+
+/* Types of pokemons  */
+
+.normal{
+    @apply bg-yellow-700 rounded-md text-white font-bold px-4
+}
+
+.fire{
+    @apply bg-red-800 rounded-md text-white font-bold px-4
+}
+
+.water{
+    @apply bg-blue-500 rounded-md text-white font-bold px-4
+}
+
+.grass{
+    @apply bg-green-500 rounded-md text-white font-bold px-4
+}
+
+.electric{
+    @apply bg-yellow-500 rounded-md text-white font-bold px-4
+}
+
+.ice{
+    @apply bg-cyan-500 rounded-md text-black font-bold px-4
+}
+
+.fighting{
+    @apply bg-orange-900 text-white font-bold rounded-md px-4
+}
+
+.poison{
+    @apply bg-pink-500 rounded-md text-white font-bold px-4
+}
+
+.ground{
+    @apply bg-yellow-300 rounded-md text-black font-bold px-4
+}
+
+.flying{
+    @apply bg-purple-500 rounded-md text-white font-bold px-4
+}
+
+.psychic{
+    @apply bg-pink-800 rounded-md text-white font-bold px-4
+}
+
+.bug{
+    @apply bg-yellow-600 opacity-50 rounded-md text-white font-bold px-4
+}
+
+.rock{
+    @apply bg-orange-900 rounded-md text-white font-bold px-4
+}
+
+.ghost{
+    @apply bg-purple-800 rounded-md text-white font-bold px-4
+}
+
+.dark{
+    @apply bg-black rounded-md text-white font-bold px-4
+}
+
+.dragon{
+    @apply bg-yellow-200 rounded-md text-black font-bold px-4
+}
+
+.steel{
+    @apply bg-stone-500 rounded-md text-white font-bold px-4
+}
+
+.fairy{
+    @apply bg-pink-400 rounded-md text-black font-bold px-4
+}
